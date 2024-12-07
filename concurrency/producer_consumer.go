@@ -1,4 +1,4 @@
-package main
+package concurrency
 
 import (
 	"fmt"
@@ -37,7 +37,7 @@ func consumer(id int) {
 	}
 }
 
-func main() {
+func ProducerConsumer() {
 	// Add producers and consumers to the WaitGroup
 	wg.Add(2) // One producer and one consumer for this example
 

@@ -1,4 +1,4 @@
-package calculationn
+package concurrency
 
 import "fmt"
 
